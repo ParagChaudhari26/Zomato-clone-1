@@ -1,0 +1,299 @@
+/*  css on main part of the website  */
+
+*{
+    margin: 0px;
+} 
+
+body{
+    background-color: #f4eded;
+}
+
+.card_buttons{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.card_button1{
+    margin-left: 225px;
+}
+
+.long{
+    width: 1116px;
+    height: auto;
+
+    margin-top: 20px;
+    margin-left: 110px;
+    border-radius: 10px;
+}
+
+.card_heading{
+    font-size: 37px;
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-bottom: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    cursor: pointer;
+    border: 10px solid #f4eded ;
+
+    position: relative;
+}
+.card:hover{
+    background-color: white;
+    border: 10px solid white ;
+    
+    border-radius: 20px;
+}
+
+.box{
+    display: inline-block;     /*  to make every div inline-block  */
+}
+
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.restaurant{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.restaurent_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    border-radius: 8px;
+    position: absolute;
+    right: 5px;
+    color: white;
+
+}
+
+.food{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 15px;
+    color: #255057;
+}
+
+.price{
+    position: absolute;
+    right: 5px;
+
+    margin-left: 137px;
+}
+
+.place{
+    font-size: 15px;
+    color: #255057;
+}
+
+.distance{
+    position: absolute;
+    right: 5px;
+
+    margin-left: 213px;
+    margin-top: 5px;
+
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.image{
+    position: relative
+}
+
+.off{
+    font-size: 29px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(238, 5, 5, 0.6);
+
+    position: absolute;
+    bottom: 11px;
+    left: 7px;
+}
+
+/* css on header part of the website */
+header{
+    background-color: white;
+}
+
+.first{
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+.middle{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 223px; 
+    padding-bottom: 23px;   
+}
+
+.second{
+    padding-bottom: 8px;
+
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.third{
+    height: 485px;
+    width: auto;
+    background-color: #ece6e6;
+}
+
+.collections{
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding-left: 225px;
+    padding-top: 17px;
+}
+
+.sentence{
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+.sentence_left{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    font-size: 20px;
+
+    margin-left: 26px;
+}
+.sentence_right{
+    color: rgb(227, 99, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+}
+
+.imgs{
+    height: 325px;
+    width: auto;
+
+    margin-top: 8px;
+    margin-left: 8px;
+
+    border-radius: 10px;
+}
+
+.img1{
+    margin-left: 217px;
+}
+
+.brand{
+    margin-left: 220px;
+    position: relative;
+    top: 1px;
+
+    color: rgb(6, 3, 3);
+    font-weight: 900;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.search{
+    margin-left: 40px;
+}
+.searching{
+    height: 40px;
+    width: 690px;
+
+   position: relative;
+   bottom: 10px;
+   
+}
+
+.log{
+    margin-left: 20px;
+    }
+
+.sign{
+    margin-left:0px;
+}
+button{
+    height: 30px;
+    width: 150px;
+
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey; 
+}
+
+.dining_image{
+    height: 70px;
+    width: auto;
+
+    margin-left: 215px;
+}
+
+.dine{
+    position: relative;
+    bottom: 30px;
+
+    font-size: 21px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(227, 104, 22);
+    font-weight: bold;
+}
+
+.delivary_image{
+    height: 66px;
+    width: auto;
+    margin-left: 58px;
+}
+
+.del{ 
+    position: relative;
+     bottom: 30px; 
+
+    font-size: 21px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(99, 95, 95);
+}
+
+.nightlife_image{
+    height: 60px;
+    width: auto;
+    margin-left: 58px;
+    margin-bottom: 5px;
+}
+
+.night{
+    position: relative;
+    bottom: 30px; 
+
+    font-size: 21px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(99, 95, 95);
+}
+
+.row1{
+    padding-left: 200px;
+}
+.row2{
+    padding-left: 200px;
+}
+.row3{
+    padding-left: 200px;
+}
+.row4{
+    padding-left: 200px;
+}
